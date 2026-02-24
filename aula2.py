@@ -13,3 +13,23 @@ elif(salario <= 20000):
     print(f"Você ganha bem: R$:{salario:.2f}")
 else:
     print(f"Você ganha muito bem: R$:{salario:.2f}")
+
+# Nas condições utilisamos ELIF e não mais ELSE IF.
+# Esse .2f, ele é para ser DUAS casas após o ponto.
+
+# EXERCICIO 1
+numero = float(input("Me informe um número: "))
+
+if(numero > 100):
+    resultado = numero / 2
+    print(f"Seu número é: {resultado}")
+else:
+    print(f"Seu número é: {numero}")
+
+# EXERCICIO 2
+x = int(input("Me informe um número e irei dizer se ele é par ou impar: "))
+
+if(x % 2 == 0):
+    print(f"O número {x} é par")
+else:
+    print("O número {x} é impar.")
