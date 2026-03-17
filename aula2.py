@@ -33,3 +33,4 @@ if(x % 2 == 0):
     print(f"O número {x} é par")
 else:
     print("O número {x} é impar.")
+
